@@ -8,11 +8,11 @@ to the complexity of the problem.
 
 We explored the efficacy of LightGBM Algorithm in indiscriminating between stars and quasars using GALEX and SDSS photometric data.
 
-What is LightGBM ?
+**What is LightGBM ?**
 
 Light GBM is a gradient boosting framework that uses tree based learning algorithm.
 
-How it differs from other tree based algorithm?
+**How it differs from other tree based algorithm?**
 
 >Light GBM grows tree vertically while other algorithm grows trees horizontally meaning that Light GBM grows tree leaf-wise while other >algorithm grows level-wise. It will choose the leaf with max delta loss to grow. When growing the same leaf, Leaf-wise algorithm can >reduce more loss than a level-wise algorithm.
 
