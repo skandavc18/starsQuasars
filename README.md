@@ -1,4 +1,4 @@
-#**Separating Stars from Quasars: Machine Learning Investigation Using Photometric Data**
+# **Separating Stars from Quasars: Machine Learning Investigation Using Photometric Data**
 
 A problem that lends itself to the application of machine learning is classifying matched sources in the Galex (Galaxy
 Evolution Explorer) and SDSS (Sloan Digital Sky Survey) catalogs into stars and quasars based on color-color
@@ -35,8 +35,10 @@ The datasets are split in 80:20 ratio before training. 80% for training data and
 
  
 To train using data.csv dataset, type 
+
 python train.py
 
 To train the cat4.csv dataset, type
+
 python train2.py
 
