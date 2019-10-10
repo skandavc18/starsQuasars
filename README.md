@@ -8,12 +8,12 @@ to the complexity of the problem.
 
 We explored the efficacy of LightGBM Algorithm in indiscriminating between stars and quasars using GALEX and SDSS photometric data.
 
-To run train the data, install the below python modules
+To run train the data, install the below python module requirements
 
-1. lightgbm
-2. sklearn
-3. numpy
-4. pandas
+1. lightgbm (https://lightgbm.readthedocs.io/en/latest/)
+2. sklearn (https://scikit-learn.org/stable/)
+3. numpy (https://numpy.org/)
+4. pandas (https://pandas.pydata.org/)
 
 To train the dataset, type 
 
