@@ -15,13 +15,18 @@ To run train the data, install the below python modules
 3. numpy
 4. pandas
 
-There are 2 traning datasets. 
+There are 2 datasets. 
 
 data.csv is taken from https://drive.google.com/drive/folders/1uoqTK81QoqPkxJ7-zHO03zpciECWpvp7 . The v2_predicted.csv is renamed as data.csv
 
 cat4.csv is taken from https://drive.google.com/drive/folders/1aAVtdO_b6AsC6Agww0OgpdKYCDOoZ__p (category4 folder)
 
-python train.py 
-To train the data.csv dataset, type 
+The datasets are split in 80:20 ratio before training. 80% for training data and 20% for test data.
 
-python train2.py 
+ 
+To train using data.csv dataset, type 
+python train.py
+
+To train the cat4.csv dataset, type
+python train2.py
+
