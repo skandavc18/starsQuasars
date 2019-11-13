@@ -42,3 +42,4 @@ To train the cat4.csv dataset, type
 
 python train2.py
 
+Implementation of lightgbm/GBT : https://github.com/lancifollia/tinygbt/blob/master/tinygbt.py : Refer this
